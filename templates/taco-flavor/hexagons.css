@@ -1,0 +1,325 @@
+/*  CSS Document  */
+/*  Hex Grid      */
+
+/*  Adapted from: */
+/*  CSS Hexagon Tutorial by James Tauber                      */
+/*  and Will Hardy                                            */
+/*  URL: https://jtauber.github.io/articles/css-hexagon.html  */
+
+#map-container
+            {
+            width:915px;
+            overflow:hidden;
+            margin-right:auto;
+            margin-bottom:80px;
+            margin-left:auto;
+            }
+
+            
+.hex:before {
+    margin-left:-36.5px;
+    content: "";
+    width: 0; 
+    height: 0;
+    border-bottom: 21.07px solid #6C6;
+    border-left: 36.5px solid transparent;
+    border-right: 36.5px solid transparent;
+    position: absolute;
+    bottom:100%;
+}
+
+.hex {
+    float:left;
+    margin-top: 21.07px;
+    margin-left: 3px;
+    margin-bottom:3px;
+    width: 73px;
+    height: 42.15px;
+    background-color: #6C6;
+    position: relative;
+}
+
+.hex:after {
+   /* margin-left:-52px;        */
+    content: "";
+    width: 0;
+    position: absolute;
+    left:0px;
+    top:100%;
+    border-top: 21.07px solid #6C6;
+    border-left: 36.5px solid transparent;
+    border-right: 36.5px solid transparent;
+}
+.hex.blank:before  {
+            border-bottom:solid 21.07px #fff;
+            }
+.hex.blank  {
+            background-color:#fff;
+            }
+.hex.blank:after  {
+            border-top:solid 21.07px #fff;
+            }
+
+
+/*  Legend  */
+
+.hex.stateCountClassNone:before         {
+                                        border-bottom:solid 21.07px #ddd;
+                                        }
+
+.hex.stateCountClassNone                {
+                                        color:#777;
+                                        background-color:#ddd;
+                                        }
+
+.hex.stateCountClassNone:after          {
+                                        border-top:solid 21.07px #ddd;
+                                        }
+
+/*  Class 5:  Very High */
+
+.hex.stateCountClass5:before  {
+                              border-bottom:solid 21.07px #00f;
+                              }
+
+.hex.stateCountClass5         {
+                              color:#fff;
+                              background-color:#00f;
+                              }
+
+.hex.stateCountClass5:after   {
+                              border-top:solid 21.07px #00f;
+                              }
+
+
+/*  Class 4:  High */
+
+.hex.stateCountClass4:before  {
+                              border-bottom:solid 21.07px #55f;
+                              }
+
+.hex.stateCountClass4         {
+                              color:#fff;
+                              background-color:#55f;
+                              }
+
+.hex.stateCountClass4:after   {
+                              border-top:solid 21.07px #55f;
+                              }
+
+
+
+/*  Class 3:  Medium  */
+
+.hex.stateCountClass3:before  {
+                              border-bottom:solid 21.07px #88f;
+                              }
+
+.hex.stateCountClass3         {
+                              background-color:#88f;
+                              }
+
+.hex.stateCountClass3:after   {
+                              border-top:solid 21.07px #88f;
+                              }
+
+
+/*  Class 2:  Low  */
+
+.hex.stateCountClass2:before  {
+                              border-bottom:solid 21.07px #ccf;
+                              }
+
+.hex.stateCountClass2         {
+                              background-color:#ccf;
+                              }
+
+.hex.stateCountClass2:after   {
+                              border-top:solid 21.07px #ccf;
+                              }
+
+
+
+
+/*  Class 1:  Very Low  */
+
+.hex.stateCountClass1:before  {
+                              border-bottom:solid 21.07px #eef;
+                              }
+
+.hex.stateCountClass1         {
+                              background-color:#eef;
+                              }
+
+.hex.stateCountClass1:after   {
+                              border-top:solid 21.07px #eef;
+                              }
+
+/*  Hover for states with a count > 0 */
+
+.hex.stateCountClass1:hover,
+.hex.stateCountClass2:hover,
+.hex.stateCountClass3:hover,
+.hex.stateCountClass4:hover,
+.hex.stateCountClass5:hover         {
+                                    background-color:#cc00ff;
+                                    cursor:pointer;
+                                    }
+
+.hex.stateCountClass1:hover:before,
+.hex.stateCountClass2:hover:before,
+.hex.stateCountClass3:hover:before,
+.hex.stateCountClass4:hover:before,
+.hex.stateCountClass5:hover:before  {
+                                    border-bottom:solid 21.07px #cc00ff;
+                                    cursor:pointer;
+                                    }
+
+.hex.stateCountClass1:hover:after,
+.hex.stateCountClass2:hover:after,
+.hex.stateCountClass3:hover:after,
+.hex.stateCountClass4:hover:after,
+.hex.stateCountClass5:hover:after   {
+                                    border-top:solid 21.07px #cc00ff;
+                                    cursor:pointer;
+                                    }
+                              
+.hex-row  {
+          clear:left;
+          }
+.hex-row.even {
+         margin-left:38.0px;      
+          }
+          
+.hex-content      {     /*
+                  float:left;
+                  width:104px;
+                  height:60px;
+                  text-align:center;   */
+                  }
+
+.hex-content  p   {
+                  margin-top:7px;
+                  vertical-align:middle;
+                  }
+                  
+#map-legend       {
+                  width:30em;
+                  margin:auto;                  
+                  }
+
+.legend-item      {
+                  float:left;
+                  width:6em;
+                  text-align:left;
+                  }
+
+.legend-item p    {
+                  margin-top:3px;
+                  margin-left:30px;
+                  
+                  }
+
+.hex-legend:before {
+                    content: "";
+    width: 0; 
+    height: 0;
+    border-bottom: 7.22px solid #6C6;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    position: absolute;
+    bottom:100%;
+}
+
+.hex-legend {
+    float:left;
+    margin-top: 7.22px;
+    width: 25px;
+    height: 14.43px;
+    background-color: #6C6;
+    position: relative;
+}
+
+.hex-legend:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    /*left:0px;*/
+    top:100%;
+    border-top: 7.22px solid #6C6;
+    border-left: 12.5px solid transparent;
+   border-right: 12.5px solid transparent; 
+}
+
+/*  Item 5:  Very High  */
+
+.hex-legend.class5:before     {
+                              border-bottom:solid 7.22px #00f;
+                              }
+
+.hex-legend.class5            {
+                              background-color:#00f;
+                              }
+
+.hex-legend.class5:after      {
+                              border-top:solid 7.22px #00f;
+                              }
+
+/*  Item 4:  High  */
+
+.hex-legend.class4:before     {
+                              border-bottom:solid 7.22px #55f;
+                              }
+
+.hex-legend.class4            {
+                              background-color:#55f;
+                              }
+
+.hex-legend.class4:after      {
+                              border-top:solid 7.22px #55f;
+                              }
+
+/*  Item 3:  Medium  */
+
+.hex-legend.class3:before     {
+                              border-bottom:solid 7.22px #88f;
+                              }
+
+.hex-legend.class3            {
+                              background-color:#88f;
+                              }
+
+.hex-legend.class3:after      {
+                              border-top:solid 7.22px #88f;
+                              }
+
+/*  Item 2:  Low  */
+
+.hex-legend.class2:before     {
+                              border-bottom:solid 7.22px #ccf;
+                              }
+
+.hex-legend.class2            {
+                              background-color:#ccf;
+                              }
+
+.hex-legend.class2:after      {
+                              border-top:solid 7.22px #ccf;
+                              }
+
+/*  Item 1:  Very Low  */
+
+.hex-legend.class1:before     {
+                              border-bottom:solid 7.22px #eef;
+                              }
+
+.hex-legend.class1            {
+                              background-color:#eef;
+                              }
+
+.hex-legend.class1:after      {
+                              border-top:solid 7.22px #eef;
+                              }   
+
+
+           

@@ -1,0 +1,199 @@
+/*  CSS Document  */
+/*  COLOR SCHEME FOR: SLR 680  */
+
+h1 a:link, h3 a:link                        {
+                                            color:#999;
+                                            }
+
+h1 a:visited, h3 a:visited                  {
+                                            color:#999;
+                                            }
+
+h1 a:hover, h3 a:hover                      {
+                                            color:#4040ff;
+                                            }
+
+#author-bar a:link    {
+                  color:#4040ff;
+                  }
+
+#author-bar a:visited {
+                  color:#4040ff;
+                  }
+
+#author-bar a:hover   {
+                  color:#000000;
+                  background-color:#ddddff;
+                  }
+
+#top-menu-container                         {
+                                            background-color:#2222ee;
+                                            }
+
+#top-menu li a:link                         {
+                                            color:#fff;
+                                            }
+
+#top-menu li a:visited                      {
+                                            color:#fff;
+                                            }
+
+#top-menu li a:hover                        {
+                                            background-color:#4040ff;
+                                            color:#fff;
+                                            }
+
+#sub-menu-container                         {
+                                            background-color:#fff;
+                                            } 
+
+#sub-menu li a:link                         {
+                                            color:#2222ee;
+                                            }
+
+#sub-menu li a:visited                      {
+                                            color:#2222ee;
+                                            }
+
+#sub-menu li a:hover                        {
+                                            background-color:#4040ff;
+                                            color:#fff;
+                                            }
+
+
+#portfolio-info                             {
+                                            background-color: #ddddff;
+                                            color:#2222ee;
+                                            }
+.image-number,
+.server-number,
+.db-number                               {
+                                            color:#22e;
+                                            background-color:#bbf;
+                                            }
+                                
+.image-number-text,
+.server-number-text,
+.db-number-text                          {
+                                            color:#fff;
+                                            background-color:#22e;
+                                            }
+                                            
+.portfolio-image-preview,
+.portfolio-image-edit,
+.portfolio-image-delete         {
+                                background-color:#ddddff;     
+                                }
+                                
+.portfolio-image-preview a:link,
+.portfolio-image-edit a:link,
+.portfolio-image-delete a:link          {
+                                        color:#2222ee;     
+                                        }
+
+.portfolio-image-preview a:visited,
+.portfolio-image-edit a:visited,
+.portfolio-image-delete a:visited       {
+                                        color:#2222ee;     
+                                        }
+                                        
+.portfolio-image-preview a:hover,
+.portfolio-image-edit a:hover,
+.portfolio-image-delete a:hover         {
+                                        background-color:#4040ff;
+                                        color:#fff;     
+                                        }
+.portfolio-prev-page a:link,
+.portfolio-next-page a:link
+                        {
+                        color:#2222ee;
+                        }
+
+.portfolio-prev-page a:visited,
+.portfolio-next-page a:visited
+                        {
+                        color:#2222ee;
+                        }
+
+.portfolio-prev-page a:hover,
+.portfolio-next-page a:hover
+                        {
+                        color:#0000ff;                      
+                        }
+                        
+/*  Portfolio / Categories  */
+
+.portfolio-category-edit,
+.portfolio-category-delete,
+.portfolio-camera-edit,
+.portfolio-camera-delete,
+.portfolio-media-edit,
+.portfolio-media-delete,
+.users-list-edit,
+.users-list-delete,
+.content-announcements-edit,
+.content-announcements-delete,
+.content-publications-edit,
+.content-publications-delete
+                                  {
+                                  background-color:#ddddff;     
+                                  }
+                                
+
+.portfolio-category-edit a:link,
+.portfolio-category-delete a:link,
+.portfolio-camera-edit a:link,
+.portfolio-camera-delete a:link,
+.portfolio-media-edit a:link,
+.portfolio-media-delete a:link,
+.users-list-edit a:link,
+.users-list-delete a:link,
+.content-announcements-edit a:link,
+.content-announcements-delete a:link,
+.content-publications-edit a:link,
+.content-publications-delete a:link
+                                  {
+                                  color:#2222ee;     
+                                  }
+
+
+.portfolio-category-edit a:visited,
+.portfolio-category-delete a:visited,
+.portfolio-camera-edit a:visited,
+.portfolio-camera-delete a:visited,
+.portfolio-media-edit a:visited,
+.portfolio-media-delete a:visited,
+.users-list-edit a:visited,
+.users-list-delete a:visited,
+.content-announcements-edit a:visited,
+.content-announcements-delete a:visited,
+.content-publications-edit a:visited,
+.content-publications-delete a:visited
+                                  {
+                                  color:#2222ee;     
+                                  }
+                                        
+
+.portfolio-category-edit a:hover,
+.portfolio-category-delete a:hover,
+.portfolio-camera-edit a:hover,
+.portfolio-camera-delete a:hover,
+.portfolio-media-edit a:hover,
+.portfolio-media-delete a:hover ,
+.users-list-edit a:hover,
+.users-list-delete a:hover,
+.content-announcements-edit a:hover,
+.content-announcements-delete a:hover,
+.content-publications-edit a:hover,
+.content-publications-delete a:hover
+                                  {
+                                  background-color:#4040ff;
+                                  color:#fff;     
+                                  }
+                                        
+/*  Error Message Box */
+
+#error-message-box                             {
+                                            background-color:#e8e8e8;
+                                            color:#aa0000;
+                                            }                                

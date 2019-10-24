@@ -1,0 +1,64 @@
+/*  CSS Document  */
+                                                              
+/*  API Page Styles  */
+#api-form-container         {
+                              width: 350px;
+                              padding:35px 0px 15px 0px;
+                              margin: 35px auto 35px auto;
+                              background-color:#e8e8e8;
+                              border:1px solid #c8c8c8;
+                              /* text-align: left; */
+                              -moz-box-shadow: rgba(180,180,180,1) 0 5px 20px;
+                              -webkit-box-shadow: rgba(180,180,180,1) 0 5px 20px;
+                              -khtml-box-shadow: rgba(180,180,180,1) 0 5px 20px;
+                              box-shadow: rgba(180,180,180,1) 0 5px 20px;
+                              }
+                              
+#api-form-container input   {
+                                                  
+                              }
+
+#login-form-user-info         {
+
+                              }
+
+#api-form-user-info label   {
+                              float:left;
+                              margin-left: 40px;                    
+                              }
+
+#login-form-checkbox          {
+clear:both;
+                              text-align:left;
+                              margin-left:35px;   /*background-color:#f00;*/
+                              }
+
+#login-form-checkbox label    {
+                              /*margin-left:0px;
+                              float:none;*/
+                              
+                              }
+
+#authentication-failed        {
+                              width: 350px;
+                              padding:35px 0px 35px 0px;
+                              margin: 70px auto 35px auto;
+                              background-color:#e8e8e8;
+                              border:1px solid #c8c8c8;
+                              /* text-align: left; */
+                              -moz-box-shadow: rgba(180,180,180,1) 0 5px 20px;
+                              -webkit-box-shadow: rgba(180,180,180,1) 0 5px 20px;
+                              -khtml-box-shadow: rgba(180,180,180,1) 0 5px 20px;
+                              box-shadow: rgba(180,180,180,1) 0 5px 20px;                              
+                              font-family: 'Archivo Narrow', sans-serif;
+                              }                              
+
+#authentication-failed p,
+.fail p                       {
+                              color:#aa0000;
+                              }
+
+form                          {
+                              /* margin:0px auto 0px 34px; */
+                              }
+
